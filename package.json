@@ -1,0 +1,41 @@
+{
+  "name": "git-hooks-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "git-hooks-validator": "./hooks-controller.js",
+    "validator": "./validator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkhan004/git-hooks-validator.git"
+  },
+  "author": "Shakil Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkhan004/git-hooks-validator/issues"
+  },
+  "homepage": "https://github.com/mkhan004/git-hooks-validator#readme",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "co": "^4.6.0",
+    "extfs": "0.0.7",
+    "fs": "0.0.2",
+    "fs-promise": "^0.5.0",
+    "iconv-lite": "^0.4.13",
+    "is-git-repo": "^0.1.2",
+    "path": "^0.12.7",
+    "shelljs": "^0.7.0",
+    "uuid-validate": "0.0.2",
+    "xmldom": "^0.1.22",
+    "xpath": "0.0.23"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.11.1"
+  }
+}
